@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список імен</title>
+</head>
+<body>
+    <h2>Список імен</h2>
+    <ul>
+        {% for name in names %}
+            <li>{{ name.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
